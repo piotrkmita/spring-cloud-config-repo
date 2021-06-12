@@ -16,6 +16,4 @@ spring.database.driverClassName: "org.postgresql.Driver"
 
 api.key: 6e495c63e1fc02230ce46b4b6dfaf114
 management.endpoints.web.exposure.include: hystrix.stream
-hystrix:
-  dashboard:
-    proxy-stream-allow-list: "*"
+hystrix.dashboard.proxy-stream-allow-list: "*"
