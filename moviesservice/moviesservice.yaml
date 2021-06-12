@@ -15,3 +15,4 @@ spring.datasource.url: "jdbc:postgresql://my_database:5432/production"
 spring.database.driverClassName: "org.postgresql.Driver"
 
 api.key: 6e495c63e1fc02230ce46b4b6dfaf114
+management.endpoints.web.exposure.include: hystrix.stream
